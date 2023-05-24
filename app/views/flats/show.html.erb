@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="container col-8 p-5">
+    <div class="bg-light mb-4 p-3">
+      <h2><%= @flat.name %></h2>
+      <p><%= @flat.address %></p>
+    </div>
+    <div class="bg-light mb-4 p-1">
+      <h2>A bit more about this flat...</h2>
+      <p><%= @flat.description %></p>
+    </div>
+    <div class="bg-light mb-4 p-1">
+      <h2>Details</h2>
+      <div class="d-inline-flex justify-content-between align-items-center w-25 px-2">
+          <p><i class="fa-solid fa-euro-sign"></i><%= @flat.price_per_night %></p>
+          <p><i class="fa-solid fa-person"></i><%= @flat.number_of_guests %></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container col-4 p-5">
+    <div class="card">
+      <p>placeholder booking</p>
+    </div>
+  </div>
+</div>
