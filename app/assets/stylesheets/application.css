@@ -18,3 +18,15 @@
 .card {
   height: 230px;
 }
+
+.btn-test {
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: white;
+  margin: 300px;
+
+}
+
+.btn-test:hover {
+  background-color: #70b5ffc2;
+}
